@@ -13,26 +13,13 @@
   gap: 24px;
 }
 
-.navLinks {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+.navLink{
+  text-decoration: none;
 }
 
 .navLink:hover {
-  color: #ffffff;
+  color: #94a3b8;
 }
-
-/* .logoutButton {
-  color: #f8fafc;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: 0.2s ease;
-}
-
-.logoutButton:hover {
-  color: #ef4444;
-} */
 
 .logoutButton {
   all: unset;

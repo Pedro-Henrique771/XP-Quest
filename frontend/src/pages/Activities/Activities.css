@@ -2,18 +2,6 @@ body{
     background: #111827;
 }
 
-/* .navButton {
-  text-decoration: none;
-  color: #9ca3af;
-  font-size: 14px;
-  transition: 0.2s;
-}
-
-.navButton:hover {
-  color: #e5e7eb;
-} */
-
-
 .activitiesPage {
   min-height: 100vh;
   color: #e5e7eb;
@@ -27,7 +15,6 @@ body{
   border-bottom: 1px solid #2a2a2a;
 }
 
-/* Botões */
 .navLeft button,
 .navRight button {
   background: transparent;
@@ -43,12 +30,12 @@ body{
   gap: 20px;
 }
 
-/* Hover */
+
 .navLeft button:hover {
   color: #e5e7eb;
 }
 
-/* Logout diferente */
+
 .logout {
   color: #ef4444;
 }
@@ -57,7 +44,7 @@ body{
   color: #f87171;
 }
 
-/* CONTEÚDO */
+
 .content {
   padding: 30px 40px;
 }
