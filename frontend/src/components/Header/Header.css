@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.headerLogo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.headerUser {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.headerUsername {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.headerXp {
+  background: #3b82f6;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}

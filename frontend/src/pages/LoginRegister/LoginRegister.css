@@ -1,0 +1,46 @@
+body{
+    background-color: #0d0d0d;
+    margin: 0;
+}
+
+
+h1{
+    text-align: center;
+    color: #e5e5e5;
+}
+
+.inputLogin{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.registerText {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #8b949e;
+  text-align: center;
+}
+
+.registerText a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+  transition: all 0.2s ease;
+}
+
+.registerText a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
+
+.errorMessage {
+  color: #f87171;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}

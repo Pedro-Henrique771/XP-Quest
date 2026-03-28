@@ -1,0 +1,27 @@
+label{
+    padding: 4px 8px;
+    font-size: 16px;
+    color: #cfcfcf;
+}
+
+input{
+    padding: 12px;
+    margin: 0px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    background: #2a2a2a;
+    color: #c9d1d9;
+    outline: none;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.inputLogin{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+}

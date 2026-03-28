@@ -1,0 +1,197 @@
+body{
+    background: #111827;
+}
+
+/* .navButton {
+  text-decoration: none;
+  color: #9ca3af;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.navButton:hover {
+  color: #e5e7eb;
+} */
+
+
+.activitiesPage {
+  min-height: 100vh;
+  color: #e5e7eb;
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* Botões */
+.navLeft button,
+.navRight button {
+  background: transparent;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.navLeft {
+  display: flex;
+  gap: 20px;
+}
+
+/* Hover */
+.navLeft button:hover {
+  color: #e5e7eb;
+}
+
+/* Logout diferente */
+.logout {
+  color: #ef4444;
+}
+
+.logout:hover {
+  color: #f87171;
+}
+
+/* CONTEÚDO */
+.content {
+  padding: 30px 40px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 60px 80px;
+}
+
+.heroText {
+  max-width: 600px;
+}
+
+.heroText h2 {
+  font-size: clamp(32px, 4vw, 44px);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.heroText p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #9ca3af;
+}
+
+.hero img {
+  width: 460px;
+  max-width: 100%;
+  height: auto;
+}
+
+.heroText span {
+  color: #3b82f6;
+}
+
+.activitySection {
+  padding: 10px 80px 60px;
+}
+
+.activityCard {
+  background: #1f2937;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.activityLeft h3,
+.activityRight h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e5e7eb;
+}
+
+.activityLeft p {
+  color: #9ca3af;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.activityForm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.activityForm input {
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #374151;
+  background: #111827;
+  color: #e5e7eb;
+  outline: none;
+  font-size: 15px;
+}
+
+.activityForm input::placeholder {
+  color: #6b7280;
+}
+
+.activityForm input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.activityForm button {
+  align-self: flex-start;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 22px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.activityForm button:hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.activityRight {
+  background: #111827;
+  border: 1px solid #2b3545;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.xpLog {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.xpLog p {
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.xpLog span {
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.xpTotal {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3b82f6;
+}

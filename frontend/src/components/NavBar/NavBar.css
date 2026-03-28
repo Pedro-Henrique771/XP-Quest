@@ -1,0 +1,73 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navLink:hover {
+  color: #ffffff;
+}
+
+/* .logoutButton {
+  color: #f8fafc;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+.logoutButton:hover {
+  color: #ef4444;
+} */
+
+.logoutButton {
+  all: unset;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  color: #f8fafc;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+  cursor: pointer;
+
+  display: inline-block;
+  width: auto;
+
+  outline: none;
+  box-shadow: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.logoutButton:hover {
+  color: #ef4444;
+  background-color: #111827;
+}
+
+.logoutButton:focus,
+.logoutButton:focus-visible,
+.logoutButton:active {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+
+.logoutButton::-moz-focus-inner {
+  border: 0;
+}
