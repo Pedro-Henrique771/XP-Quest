@@ -96,7 +96,7 @@ export async function getHistory() {
 }
 
 export async function getRanking() {
-  const response = await fetch("http://localhost:3000/ranking");
+  const response = await fetch(API_URL);
 
   const data = await response.json();
 

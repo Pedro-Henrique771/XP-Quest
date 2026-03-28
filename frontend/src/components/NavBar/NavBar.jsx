@@ -5,7 +5,7 @@ const NavBar = () => {
 
   const handleLogout = () => {
   localStorage.removeItem("token");
-  localStorage.removeItem("user"); // opcional, mas recomendado
+  localStorage.removeItem("user"); 
   navigate("/");
 };
 
@@ -31,9 +31,6 @@ const NavBar = () => {
         )}
       </div>
 
-      {/* <Link to="/" className="logoutButton">
-        Logout
-      </Link> */}
       <button className="logoutButton" onClick={handleLogout}>
         Logout
       </button>
